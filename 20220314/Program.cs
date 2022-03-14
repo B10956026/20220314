@@ -10,6 +10,7 @@ namespace _20220314
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello");
         }
     }
 }
