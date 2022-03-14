@@ -22,6 +22,8 @@ namespace _20220314
             Console.WriteLine();
     
             t3(); //呼叫 練習3 function
+
+            Console.ReadKey();
         }
 
           //練習1.輸入N, 印出 function
