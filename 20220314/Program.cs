@@ -42,5 +42,43 @@ namespace _20220314
             Console.ReadKey();
          
         }
+            Console.WriteLine("練習2.輸入N, 印出:");
+            Console.Write("Input num:");
+            int num = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("num:"+num);
+            for(int i=1;i<=num;i++){
+              Console.WriteLine(num+"*"+i+"="+(num*i));
+            }
+          }
+  
+          //練習3.用兩個迴圈 做出九九乘法表 function
+          static void t3(){
+            Console.Write("練習3.用兩個迴圈 做出九九乘法表：");
+            for(int i=1;i<10;i++){
+              Console.WriteLine();
+              for(int j=1;j<10;j++){
+                Console.WriteLine(i+"*"+j+"="+(i*j));
+              }
+            }  
+          }
+            Console.WriteLine("練習2.輸入N, 印出:");
+            Console.Write("Input num:");
+            int num = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("num:"+num);
+            for(int i=1;i<=num;i++){
+              Console.WriteLine(num+"*"+i+"="+(num*i));
+            }
+          }
+  
+          //練習3.用兩個迴圈 做出九九乘法表 function
+          static void t3(){
+            Console.Write("練習3.用兩個迴圈 做出九九乘法表：");
+            for(int i=1;i<10;i++){
+              Console.WriteLine();
+              for(int j=1;j<10;j++){
+                Console.WriteLine(i+"*"+j+"="+(i*j));
+              }
+            }  
+          }
     }
 }
